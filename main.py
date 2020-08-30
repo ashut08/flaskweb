@@ -1,4 +1,4 @@
-﻿from flask import Flask,render_template
+﻿from flask import  Flask, render_template, url_for, flash, redirect
 from registeration import RegForm,LoginFrom
 
 app = Flask(__name__)
